@@ -9,7 +9,7 @@ static defaultProps ={
     maxNum: 40
 }
 
-state = { nums: Array.from({length: this.props.numBalls})}; //Array.from gives an empty array according to length
+state = { nums: Array.from({length: this.props.numBalls})}; //Array.from assigns empty array according to the length
 
 generate = e =>{
 
@@ -18,9 +18,6 @@ generate = e =>{
     }));
 
 }
-
-
-
     render(){
         return(
             <div className="container">

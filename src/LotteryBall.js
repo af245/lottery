@@ -6,7 +6,7 @@ class LotteryBall extends React.Component{
         return(
             <div className="LotteryBall-container">
                 <div className="ball">
-                    {this.props.num}
+                    {this.props.num} 
                 </div>
                 
             </div>
