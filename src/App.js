@@ -1,13 +1,14 @@
-
 import './App.css';
-import Lottery from './Lottery';
+import React from 'react';
+import LotteryFunctional from "./LotteryFunctional";
 
 function App() {
   return (
     <div className="App">
-      <Lottery/>
-
-      <Lottery title='Cash 5' maxNum={15} numBalls={5}/>
+      <div className="App-Column">
+        <LotteryFunctional title='Powerball' maxNum={40} numBalls={6}/>
+        <LotteryFunctional title='Cash 5' maxNum={15} numBalls={5}/>
+      </div>
     </div>
   );
 }
